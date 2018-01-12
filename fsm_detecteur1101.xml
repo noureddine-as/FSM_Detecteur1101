@@ -1,0 +1,13 @@
+<interfaceDefinition version='1.2' language='vhdl' kind='component' name='FSM_Detecteur1101'>
+  <useClause path='ieee.STD_LOGIC_UNSIGNED.all' />
+  <useClause path='ieee.std_logic_arith.all' />
+  <useClause path='ieee.std_logic_1164.all' />
+    <portList>
+
+      <port name='CLK' direction='in' type='STD_LOGIC' kind='' />
+      <port name='RST' direction='in' type='STD_LOGIC' kind='' />
+      <port name='Input' direction='in' type='STD_LOGIC' kind='' />
+      <port name='Output' direction='out' type='STD_LOGIC' kind='' />
+
+    </portList>
+</interfaceDefinition>
